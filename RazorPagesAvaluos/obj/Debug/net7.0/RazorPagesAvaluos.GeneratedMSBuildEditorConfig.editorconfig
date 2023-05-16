@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesAvaluos
+build_property.RootNamespace = RazorPagesAvaluos
+build_property.ProjectDir = C:\pina\RazorPagesAvaluos\RazorPagesAvaluos\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\pina\RazorPagesAvaluos\RazorPagesAvaluos
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Avaluos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbHVvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Avaluos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbHVvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Avaluos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbHVvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Avaluos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbHVvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Avaluos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbHVvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/pina/RazorPagesAvaluos/RazorPagesAvaluos/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-brvm2q45tb

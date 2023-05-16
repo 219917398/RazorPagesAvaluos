@@ -1,0 +1,445 @@
+﻿@page
+@model RazorPagesAvaluos.Pages.Avaluos.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalle</h1>
+
+<div>
+    <h4>Avalúo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.FechaAvaluo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.FechaAvaluo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Valuador)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Valuador)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Solicitante)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Solicitante)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.PropietarioInmueble)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.PropietarioInmueble)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.PropositoAvaluo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.PropositoAvaluo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.TipoPropiedad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.TipoPropiedad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Calle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Calle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.NumExterior)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.NumExterior)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.NumInterior)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.NumInterior)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Conjunto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Conjunto)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Colonia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Colonia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.CodigoPostal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.CodigoPostal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Ciudad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Ciudad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.DelegacionMunicipio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.DelegacionMunicipio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Estado)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Estado)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ClasifZona)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ClasifZona)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.RefProxUrbana)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.RefProxUrbana)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ConstruccionesPredom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ConstruccionesPredom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.IndiceSaturacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.IndiceSaturacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.DensidadPoblacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.DensidadPoblacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.NivelSocioeconomico)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.NivelSocioeconomico)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ViasAcceso)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ViasAcceso)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.IntensidadFlujoVehicular)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.IntensidadFlujoVehicular)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.InfraestructuraDisponible)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.InfraestructuraDisponible)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ServiciosBasicos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ServiciosBasicos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.OtrosServicios)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.OtrosServicios)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.EquipamientoUrbano)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.EquipamientoUrbano)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ComentariosEntorno)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ComentariosEntorno)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.CallesLimOrientacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.CallesLimOrientacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Dimensiones)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Dimensiones)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Colindancia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Colindancia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Configuracion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Configuracion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Topografia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Topografia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.UsoSuelo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.UsoSuelo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.DensidadHabitacional)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.DensidadHabitacional)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.UbicacionLoteCalle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.UbicacionLoteCalle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Restricciones)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Restricciones)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Giro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Giro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.NumNiveles)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.NumNiveles)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.SuperficiesCubiertas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.SuperficiesCubiertas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.AreasAccesorias)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.AreasAccesorias)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.SuperficieVendible)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.SuperficieVendible)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ClaseGeneralInmueble)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ClaseGeneralInmueble)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.EstadoConservacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.EstadoConservacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.EdadConstrucciones)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.EdadConstrucciones)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.VidaUtilRemanente)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.VidaUtilRemanente)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Cimentacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Cimentacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.SuperEstructura)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.SuperEstructura)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Muros)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Muros)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Escaleras)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Escaleras)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.LosasEntrepisos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.LosasEntrepisos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.LosasAzoteas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.LosasAzoteas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.InstalacionesEspeciales)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.InstalacionesEspeciales)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ElementosAccesorios)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ElementosAccesorios)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.ObrasComplementarias)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.ObrasComplementarias)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Pisos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Pisos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Muros2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Muros2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Plafones)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Plafones)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.InstalacionesHidraulicas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.InstalacionesHidraulicas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.InstalacionesSanitarias)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.InstalacionesSanitarias)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.InstalacionesElectricas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.InstalacionesElectricas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Puertas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Puertas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Closets)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Closets)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.MueblesFijos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.MueblesFijos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Pisos2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Pisos2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Ventanas)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Ventanas)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Vidrieria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Vidrieria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Cerrajeria)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Cerrajeria)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.DeterminacionValor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.DeterminacionValor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Comentarios)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Comentarios)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Calificacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Calificacion)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Avaluo?.Id">Editar</a> |
+    <a asp-page="./Index">Regresar</a>
+</div>

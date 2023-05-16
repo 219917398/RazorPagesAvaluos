@@ -1,0 +1,35 @@
+﻿@page
+@model RazorPagesAvaluos.Pages.Avaluos.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminar</h1>
+
+<h3>¿Está seguro que desea eliminar el avalúo?</h3>
+<div>
+    <h4>Avalúo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.FechaAvaluo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.FechaAvaluo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avaluo.Valuador)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avaluo.Valuador)
+        </dd>
+       
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Avaluo.Id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-page="./Index">Regresar</a>
+    </form>
+</div>
